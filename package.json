@@ -1,0 +1,16 @@
+{
+  "name": "kids-video-maker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "bullmq": "^5.12.8",
+    "uuid": "^9.0.1"
+  }
+}
